@@ -1,0 +1,39 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "photo": "https://sensebike.com.br/storage/2020/12/727AE262-D9D3-4020-8370-E5DC9853E73A.jpeg",
+        "name":"Sense One",
+        "description": "Descrição do produto",
+        "price": "R$2.690"
+      },
+      {
+        "id": 2,
+        "photo": "https://sensebike.com.br/storage/2020/09/3_Fun-Evo-Acq_SenseBike_2021.jpg",
+        "name":"Sense Fun Evo",
+        "description": "Descrição do produto",
+        "price": "R$4.790"
+      },
+      {
+        "id": 3,
+        "photo": "https://sensebike.com.br/storage/2020/12/IntensaEvoAtualizada.jpg",
+        "name":"Sense Int Evo",
+        "description": "Descrição do produto",
+        "price": "R$5.790"
+      },
+      {
+        "id": 4,
+        "photo": "https://sensebike.com.br/storage/2020/12/2_Impact-SL-Alum-Marrom_SenseBike_2021.jpg",
+        "name":"Sense Impact SL",
+        "description": "Descrição do produto",
+        "price": "R$9.990"
+      },
+      {
+        "id": 5,
+        "photo": "https://sensebike.com.br/storage/2020/12/2_Impact-Race-Alum-Azul_SenseBike_2021.jpg",
+        "name":"Sense Imp Race",
+        "description": "Descrição do produto",
+        "price": "R$11.990"
+      }
+    ]  
+  }
