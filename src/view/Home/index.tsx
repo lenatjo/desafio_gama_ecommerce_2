@@ -3,6 +3,8 @@ import { Container } from "./style";
 import api from '../../services/api';
 import Logo from '../../assets/mountain-bike.jpg';
 import Cart from '../../assets/cart-image.png';
+import { Link } from 'react-router-dom';
+
 
 interface StoreProducts{
     id: number;
@@ -46,11 +48,10 @@ const Home: React.FC = () => {
                     <h1 className="h1-header">Bike Shop</h1>
                 </header>
                 <header className="areas-section">
-                    <h2 className="h2-header">Cliente</h2>
-                    <a href="Cliente">Cliente</a>
+                    <Link className="h2-header" to='/clientes'>Clientes</Link>
                 </header>
                 <header className="areas-section">
-                    <h2 className="h2-header">Produto</h2>
+                    <Link className="h2-header" to='/clientes'>Produtos</Link>
                 </header>
                 <header className="space-section">
                 </header>
