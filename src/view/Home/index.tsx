@@ -33,7 +33,6 @@ const Home: React.FC = () => {
         setCart(cart => [...cart,product]);
         const productStore = JSON.stringify(cart);
         localStorage.setItem('@cart', productStore);
-        console.log(cart);
     }
 
     return (
@@ -49,9 +48,6 @@ const Home: React.FC = () => {
                 </header>
                 <header className="areas-section">
                     <Link className="h2-header" to='/clientes'>Clientes</Link>
-                </header>
-                <header className="areas-section">
-                    <Link className="h2-header" to='/clientes'>Produtos</Link>
                 </header>
                 <header className="space-section">
                 </header>

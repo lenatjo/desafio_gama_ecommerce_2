@@ -204,4 +204,42 @@ export const Container = styled.div`
         fill: white;
         margin-left: 10px;
     }
+
+    .customer-section{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        background-color: black;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .data-input {
+        width: 300px;
+        height: 42px;
+        background: #E5E5E5;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .btn-register{
+        width: 126px;
+        height: 42px;
+        border: none;
+        background: #EF042E;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        color: #E5E5E5;
+    }
+
 `
